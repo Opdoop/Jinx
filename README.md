@@ -82,11 +82,14 @@ response = tokenizer.decode(outputs[0], skip_special_tokens=True)
 ## 📚 Citation
 
 ```bibtex
-@article{zhao2025jinx,
-  title={Jinx: Unlimited LLMs for Probing Alignment Failures},
-  author={Zhao, Jiahao and Dong, Liwei},
-  year={2025},
-  note={Technical Report}
+@misc{zhao2025jinxunlimitedllmsprobing,
+      title={Jinx: Unlimited LLMs for Probing Alignment Failures}, 
+      author={Jiahao Zhao and Liwei Dong},
+      year={2025},
+      eprint={2508.08243},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.08243}, 
 }
 ```
 
